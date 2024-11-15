@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Task Manager</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<div class="task-board">
+  <!-- To Do Column -->
+  <div class="task-column" id="to-do">
+    <h2>To Do</h2>
+    <div class="task-list"></div>
+    <button class="add-new-btn" onclick="showAddTaskForm('to-do')">Add new</button>
+  </div>
+
+  <!-- In Progress Column -->
+  <div class="task-column" id="in-progress">
+    <h2>In Progress</h2>
+    <div class="task-list"></div>
+    <button class="add-new-btn" onclick="showAddTaskForm('in-progress')">Add new</button>
+  </div>
+
+  <!-- Under Review Column -->
+  <div class="task-column" id="under-review">
+    <h2>Under Review</h2>
+    <div class="task-list"></div>
+    <button class="add-new-btn" onclick="showAddTaskForm('under-review')">Add new</button>
+  </div>
+
+  <!-- Finished Column -->
+  <div class="task-column" id="finished">
+    <h2>Finished</h2>
+    <div class="task-list"></div>
+    <button class="add-new-btn" onclick="showAddTaskForm('finished')">Add new</button>
+  </div>
+</div>
+<!-- Pop-up -->
+<div id="add-task-modal" class="add-task-modal">
+  <input type="text" placeholder="Title" id="task-title">
+  <input type="text" placeholder="Description" id="task-desc">
+  <select id="task-priority">
+    <option value="low">Low</option>
+    <option value="medium">Medium</option>
+    <option value="urgent">Urgent</option>
+  </select>
+  <button onclick="addTask()">Add Task</button>
+</div>
+
+<script src="script.js" defer></script>
+</body>
+</html>
