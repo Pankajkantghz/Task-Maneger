@@ -13,7 +13,7 @@ A simple and intuitive **Task Management Application** that allows users to orga
 
 ## Demo
 
-![Task Management Application Demo](https://ibb.co/18Wx9T3)
+![Image](https://ibb.co/18Wx9T3)
 
 ## How to Use
 
