@@ -13,7 +13,7 @@ A simple and intuitive **Task Management Application** that allows users to orga
 
 ## Demo
 
-![Task Management Application Demo](https://i.ibb.co/wRBjVC4/image.png)
+[Task Management Application Demo](https://task-maneger-red.vercel.app/)
 
 ## How to Use
 
@@ -23,20 +23,17 @@ A simple and intuitive **Task Management Application** that allows users to orga
 
 ## Technologies Used
 
-- **Frontend**: React, Tailwind CSS
-- **State Management**: React Context or Redux (depending on your implementation)
-- **Backend (Optional)**: Node.js, Express (for saving tasks to a database)
+- **Frontend**: HTML, CSS, JavaScript
 
 ## Getting Started
 
 ### Prerequisites
 
-Make sure you have the following installed:
+Make sure you have the following:
 
-- Node.js
-- npm or yarn
+- A modern web browser (e.g., Google Chrome, Mozilla Firefox)
 
-### Installation
+### Running the Application
 
 1. Clone the repository:
    ```bash
