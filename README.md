@@ -10,6 +10,7 @@ A simple and intuitive **Task Management Application** that allows users to orga
   - Medium
   - Low
 - **User-Friendly Design**: Built with simplicity and productivity in mind.
+- **Local Storage**: Tasks are stored in the browser's local storage, ensuring your tasks persist even after refreshing the page.
 
 ## Demo
 
@@ -35,7 +36,6 @@ Make sure you have the following:
 
 ### Running the Application
 
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/yourusername/task-management-app.git
-   cd task-management-app
+```bash
+git clone https://github.com/yourusername/task-management-app.git
+cd task-management-app
